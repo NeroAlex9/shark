@@ -36,7 +36,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 110%;
 	vertical-align: middle;
 	display: inline-block
 }
@@ -93,7 +93,6 @@ p {
 		--mobile-width:400px;
 		--mobile-height:650px;
 	}
-
 	.swiper-wrapper {
 		margin-top: 180px !important;
 	}
@@ -131,6 +130,7 @@ p {
 		margin-top: 10% !important;
 	}
 	.s3-item-description {
+		text-shadow: 2px 1px 1px white, 0 0 0.2em blue, 0 0 0.7em blue;
 		font-size: 40px !important;
 	}
 	.nav-logo {
@@ -169,6 +169,8 @@ p {
 		padding-left: 10px
 	}
 }
+
+
 
 .w-nav {
 	background: #dddddd
@@ -211,7 +213,6 @@ p {
 		padding-left: 10px
 	}
 }
-
 @keyframes spin {
 	0% {
 		transform: rotate(0deg)
@@ -327,7 +328,6 @@ body {
 
 .p {
 	color: #dbe9f8;
-	width: 550px;
 	max-width: 100%;
 	margin-bottom: 40px
 }
@@ -714,7 +714,7 @@ body {
 }
 
 .h2.is-small-h2 {
-	font-size: 30px
+	font-size: 50px
 }
 
 .h2.is-small-h2.is-s4-h2 {
@@ -983,7 +983,6 @@ body {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	padding-top: 75px;
 	padding-bottom: 75px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1027,7 +1026,7 @@ body {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	width: 50%;
+	width: 70%;
 	padding-left: 50px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -1071,7 +1070,8 @@ body {
 }
 
 .s3-item-description {
-	font-size: 16px;
+	text-shadow: 2px 1px 1px white, 0 0 0.2em blue, 0 0 0.7em blue;
+	font-size: 40px !important;
 	line-height: 1.4
 }
 
@@ -1438,6 +1438,8 @@ body {
 }
 
 .s3-container {
+	text-align: center;
+	justify-content: center;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1864,6 +1866,8 @@ body {
 		max-width: 1296px
 	}
 	.s3-container {
+		text-align: center;
+		justify-content: center;
 		max-width: 1296px
 	}
 	.hero-card-wrapper {
@@ -2022,7 +2026,7 @@ body {
 		padding: 18px
 	}
 	.s3-icon {
-		height: 44px
+		height: 100px
 	}
 	.s3-item-description {
 		-webkit-box-flex: 1;
@@ -2046,6 +2050,8 @@ body {
 		margin-left: -25px
 	}
 	.s3-container {
+		text-align: center;
+		justify-content: center;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: reverse;
 		-webkit-flex-direction: column-reverse;
