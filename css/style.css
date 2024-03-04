@@ -55,7 +55,7 @@ img {
 }
 
 p {
-	font-size: 20px;
+	font-size: 40px;
 	margin-top: 0
 }
 
@@ -134,15 +134,15 @@ p {
 		font-size: 40px !important;
 	}
 	.nav-logo {
-		padding-top: 200px;
-		height: 615px !important;
+		margin-top: 585px;
+		height: 900px !important;
 	}
 	h2 {
-		font-size: 45px !important;
+		font-size: 70px !important;
 	}
 	p {
 		margin-top: 5%;
-		font-size: 40px;
+		font-size: 50px;
 		display: contents !important;
 	}
 	svg {
@@ -484,7 +484,8 @@ body {
 }
 
 .nav-logo {
-	height: 160px
+	padding-top: 20px;
+	height: 220px
 }
 
 .nav-link-name {
@@ -703,11 +704,11 @@ body {
 
 .h2 {
 	text-shadow: 1px 5px 10px white, 0 0 1em blue, 0 0 0.2em blue;
-	margin-top: 0px;
+	padding-top: 15px;
 	margin-bottom: 20px;
 	font-family: Biennale, sans-serif;
 	color: var(--neutral-white-100);
-	font-size: 45px;
+	font-size: 70px;
 	line-height: 1.1;
 	font-weight: 500
 }
@@ -1970,7 +1971,7 @@ body {
 		display: none
 	}
 	.s2-info-container {
-		margin-top: 225px;
+		margin-top: 600px;
 		width: 800px;
 	}
 	.h2 {
