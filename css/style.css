@@ -36,7 +36,6 @@ body {
 }
 
 img {
-	max-width: 110%;
 	vertical-align: middle;
 	display: inline-block
 }
@@ -55,7 +54,7 @@ img {
 }
 
 p {
-	font-size: 40px;
+	font-size: 20px;
 	margin-top: 0
 }
 
@@ -85,6 +84,10 @@ p {
 	text-align: center;
 	border:1px solid #ECECEC;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+
+.tgBtn{
+	margin-top: 20px;
 }
 
 
@@ -684,12 +687,12 @@ body {
 }
 
 .s2-info-container {
+	margin-top: -50px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	max-width: 100%;
-	margin-bottom: 50px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
@@ -708,7 +711,7 @@ body {
 	margin-bottom: 20px;
 	font-family: Biennale, sans-serif;
 	color: var(--neutral-white-100);
-	font-size: 70px;
+	font-size: 40px;
 	line-height: 1.1;
 	font-weight: 500
 }
@@ -1071,7 +1074,7 @@ body {
 
 .s3-item-description {
 	text-shadow: 2px 1px 1px white, 0 0 0.2em blue, 0 0 0.7em blue;
-	font-size: 40px !important;
+	font-size: 30px !important;
 	line-height: 1.4
 }
 
@@ -1379,6 +1382,7 @@ body {
 }
 
 .s3-orbitals-image {
+	max-width: 70%;
 	position: relative;
 	z-index: 1
 }
@@ -1842,6 +1846,7 @@ body {
 	.hero-info-container {
 		max-width: 1296px
 	}
+
 	.nav-container {
 		width: 90%;
 		max-width: 1296px;
@@ -1901,6 +1906,14 @@ body {
 }
 
 @media screen and (max-width:991px) {
+
+	.tgBtn{
+		margin-top: 50px;
+	}
+
+	.s3-orbitals-image{
+		max-width: 110%;
+	}
 
 	.hero-wrapper {
 		padding-top: 220px;
@@ -1975,6 +1988,7 @@ body {
 		display: none
 	}
 	.s2-info-container {
+		margin-bottom: 50px;
 		margin-top: 250px;
 		width: 800px;
 	}
@@ -2030,6 +2044,7 @@ body {
 		height: 100px
 	}
 	.s3-item-description {
+		font-size: 40px !important;
 		-webkit-box-flex: 1;
 		-webkit-flex: 1;
 		-ms-flex: 1;
@@ -2135,9 +2150,11 @@ body {
 		width: 1000px;
 		max-width: none
 	}
+
 }
 
 @media screen and (max-width:767px) {
+
 	.h1 {
 		margin-bottom: 15px;
 		font-size: 50px
