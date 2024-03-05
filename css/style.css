@@ -141,9 +141,9 @@ p {
 		font-size: 58px !important;
 	}
 	p {
-		margin-top: 5%;
-		font-size: 46px;
-		display: contents !important;
+		
+		font-size: 38px;
+		
 	}
 	svg {
 		margin-top: 15px;
@@ -1975,7 +1975,7 @@ body {
 		display: none
 	}
 	.s2-info-container {
-		margin-top: 320px;
+		margin-top: 360px;
 		width: 800px;
 	}
 	.h2 {
