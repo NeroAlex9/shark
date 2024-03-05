@@ -134,8 +134,8 @@ p {
 		font-size: 40px !important;
 	}
 	.nav-logo {
-		margin-top: 300px;
-		height: 600px !important;
+		margin-top: 250px;
+		height: 500px !important;
 	}
 	h2 {
 		font-size: 58px !important;
@@ -1975,7 +1975,7 @@ body {
 		display: none
 	}
 	.s2-info-container {
-		margin-top: 360px;
+		margin-top: 250px;
 		width: 800px;
 	}
 	.h2 {
