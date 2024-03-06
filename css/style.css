@@ -128,6 +128,21 @@ p {
 	.swiper-slide--five{
 		background-size: var(--mobile-width) var(--mobile-height) !important;
 	}
+	.swiper-slide--six{
+		background-size: var(--mobile-width) var(--mobile-height) !important;
+	}
+	.swiper-slide--seven{
+		background-size: var(--mobile-width) var(--mobile-height) !important;
+	}
+	.swiper-slide--eight{
+		background-size: var(--mobile-width) var(--mobile-height) !important;
+	}
+	.swiper-slide--nine{
+		background-size: var(--mobile-width) var(--mobile-height) !important;
+	}
+	.swiper-slide--ten{
+		background-size: var(--mobile-width) var(--mobile-height) !important;
+	}
 
 	.s3-list-container {
 		margin-top: 10% !important;
