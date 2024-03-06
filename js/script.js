@@ -1,11 +1,11 @@
 var swiper = new Swiper(".swiper", {
+  speed: 3500,
   effect: "coverflow",
   parallax: true,
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
   coverflowEffect: {
-    speed: 1000,
     rotate: 0,
     stretch: 30,
     depth: 100,
