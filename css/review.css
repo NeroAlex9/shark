@@ -20,7 +20,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 @media screen {
@@ -149,6 +149,36 @@ section {
   background:
     url("../media/review/rev_5.jpg")
       no-repeat 50% 50% / contain;
+  background-size: 300px 500px;
+}
+.swiper-slide--six {
+  background:
+          url("../media/review/rev_6.jpg")
+          no-repeat 50% 50% / contain;
+  background-size: 300px 500px;
+}
+.swiper-slide--seven {
+  background:
+          url("../media/review/rev_7.jpg")
+          no-repeat 50% 50% / contain;
+  background-size: 300px 500px;
+}
+.swiper-slide--eight {
+  background:
+          url("../media/review/rev_8.jpg")
+          no-repeat 50% 50% / contain;
+  background-size: 300px 500px;
+}
+.swiper-slide--nine {
+  background:
+          url("../media/review/rev_9.jpg")
+          no-repeat 50% 50% / contain;
+  background-size: 300px 500px;
+}
+.swiper-slide--ten {
+  background:
+          url("../media/review/rev_10.jpg")
+          no-repeat 50% 50% / contain;
   background-size: 300px 500px;
 }
 

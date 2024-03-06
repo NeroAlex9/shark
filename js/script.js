@@ -5,6 +5,7 @@ var swiper = new Swiper(".swiper", {
   centeredSlides: true,
   slidesPerView: "auto",
   coverflowEffect: {
+    speed: 100,
     rotate: 0,
     stretch: 30,
     depth: 100,
@@ -15,9 +16,9 @@ var swiper = new Swiper(".swiper", {
   keyboard: {
     enabled: true
   },
-  mousewheel: {
-    thresholdDelta: 70
-  },
+  // mousewheel: {
+  //   thresholdDelta: 70
+  // },
   spaceBetween: 60,
   loop: true,
   pagination: {
