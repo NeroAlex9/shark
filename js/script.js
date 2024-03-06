@@ -16,6 +16,10 @@ var swiper = new Swiper(".swiper", {
   keyboard: {
     enabled: true
   },
+  autoplay: {
+    delay: 2000, // время между автоматическими прокрутками (в миллисекундах)
+    disableOnInteraction: false // отключить автопрокрутку при взаимодействии с слайдером
+  },
   // mousewheel: {
   //   thresholdDelta: 70
   // },
